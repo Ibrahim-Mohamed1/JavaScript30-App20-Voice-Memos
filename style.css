@@ -36,3 +36,28 @@ html {
     border: 1px solid;
     border-color: transparent #efe4e4;
   }
+  .span{
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+  }
+  a{
+    text-decoration-color: black;
+  }
+  h2{
+    display: none;
+  }
+  @media (pointer:none), (pointer:coarse) {
+    .title{
+        display: block;
+        text-align: center;
+        color: black;
+        margin-top: 100px;
+    }
+    .span{
+        font-size: 50px;
+    }
+    .photobooth{
+        display: none;
+    }
+  }
